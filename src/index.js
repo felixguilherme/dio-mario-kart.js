@@ -13,3 +13,7 @@ const PLAYER2 = {
   power: 4,
   score: 0,
 };
+
+async function rollDice() {
+  return Math.floor(Math.random() * 6) + 1;
+}
