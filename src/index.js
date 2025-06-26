@@ -110,3 +110,25 @@ async function playRaceEngine(character1, character2) {
   }
 }
 
+async function declareWinner(character1, character2) {
+  console.log(
+    `🏆 ${player1.NAME} scored ${player1.SCORE} and ${player2.NAME} scored ${player2.SCORE}.`
+  );
+
+  if (character1.SCORE > character2.SCORE) {
+    console.log(`🏁 ${character1.NAME} won!`);
+  } else if (character2.SCORE > character1.SCORE) {
+    console.log(`🏁 ${character2.NAME} won!`);
+  } else {
+    console.log(`🤝 It's a tie!`);
+  }
+}
+
+(async function main() {
+  console.log(
+    `🏁 🚥 Race between ${player1.NAME} and ${player2.NAME} starting...\n`
+  );
+
+  await playRaceEngine(player1, player2);
+  await declareWinner(player1, player2);
+})();
