@@ -1,17 +1,17 @@
-const PLAYER1 = {
-  name: "Mario",
-  speed: 4,
-  maneuverability: 3,
-  power: 3,
-  score: 0,
+const player1 = {
+  NAME: "Mario",
+  SPEED: 4,
+  MANEUVERABILITY: 3,
+  POWER: 3,
+  SCORE: 0,
 };
 
-const PLAYER2 = {
-  name: "Luigi",
-  speed: 3,
-  maneuverability: 4,
-  power: 4,
-  score: 0,
+const player2 = {
+  NAME: "Luigi",
+  SPEED: 3,
+  MANEUVERABILITY: 4,
+  POWER: 4,
+  SCORE: 0,
 };
 
 async function rollDice() {
