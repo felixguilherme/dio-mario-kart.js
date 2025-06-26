@@ -17,3 +17,10 @@ const PLAYER2 = {
 async function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
+
+async function getRandomBlock() {
+  const trackBlocks = ["STRAIGHT LINE", "TURN", "CLASH"];
+  const random = Math.floor(Math.random() * 3);
+  return trackBlocks[random];
+}
+
