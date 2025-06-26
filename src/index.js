@@ -24,3 +24,11 @@ async function getRandomBlock() {
   return trackBlocks[random];
 }
 
+async function logRollResult(characterName, block, diceResult, attribute) {
+  console.log(
+    `🎲 ${characterName} rolled a ${block} dice and got ${diceResult} + ${attribute} (attribute), for a total of ${
+      diceResult + attribute
+    }`
+  );
+}
+
