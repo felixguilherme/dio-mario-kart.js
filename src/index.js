@@ -1,4 +1,4 @@
-const readline = require("readline");
+import readline from "node:readline";
 
 const characters = [
   { NAME: "Mario", SPEED: 4, MANEUVERABILITY: 3, POWER: 3, SCORE: 0 },
