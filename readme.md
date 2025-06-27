@@ -79,8 +79,7 @@
 <h3>🕹️ Rules & Mechanics:</h3>
 
 <b>Players:</b>
-
-The computer must receive two characters to compete in the race, each as an object
+Before starting the race, the player can choose a character and an opponent from the list.
 
 <b>Tracks:</b>
 
